@@ -1,2 +1,13 @@
-# Identify-and-classify-toxic-online-comments
- This project was to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate. For learning purpose, base model like LSTM, text CNN was built and tested. MOre advanced models are planned to be tested eventually. 
+# [Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+
+A classic text classification task,  please download the .csv files and put them into a ./data folder in your local enviroment. 
+
+## Generate Config     
+```
+himl hiera/model=textcnn/ --output-file config/config.yaml
+```
+
+## Run 
+```
+python run.py --config config/config.yaml 
+```
