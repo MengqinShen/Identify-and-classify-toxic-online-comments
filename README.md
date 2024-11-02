@@ -1,2 +1,2 @@
 # Identify-and-classify-toxic-online-comments
- to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate better than Perspective’s current models.
+ This project was to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate. For learning purpose, base model like LSTM, text CNN was built and tested. MOre advanced models are planned to be tested eventually. 
