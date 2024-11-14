@@ -3,10 +3,10 @@
  
 ## Generate Config
 ```
-himl hiera/model=textcnn/ --output-file config/config.yaml
+himl hiera/model=bert/ --output-file config/bert_config.yaml
 ```
 
 ## Run
 ```
-python run.py --config config/config.yaml 
+python run.py --config config/bert_config.yaml 
 ```
